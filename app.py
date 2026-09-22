@@ -1,9 +1,11 @@
 import streamlit as st
-a=st.number_input("enter your number")
+a=st.number_input("enter a no")
 b=st.number_input("enter another number")
 if st.button("add"):
 	st.success(a+b)
 elif st.button("subtract"):	
 	st.success(a-b)
-elif st.button("multipy"):
+elif st.button("multiply"):
 	st.success(a*b)
+elif st.button("divide"):
+	st.success(a/b)
